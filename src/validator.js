@@ -1,5 +1,5 @@
 const validator = {
-  isValid: function(creditCardNumber){
+  isValid(creditCardNumber){
     //*split lo devuelve en arreglo, por separado*//
     const separar=creditCardNumber.split("").reverse();
     //console.log(separar)
